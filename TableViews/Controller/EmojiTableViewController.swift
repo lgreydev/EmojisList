@@ -11,13 +11,14 @@ class EmojiTableViewController: UITableViewController {
     
     // MARK: - Property
     var cellManager = CellManager()
+    var dataManager = DataManager()
     var emojis: [Emoji]!
     var editEmoji = Emoji()
 
     // MARK: - Controller
     override func viewDidLoad() {
         super.viewDidLoad()
-        emojis = Emoji.loadAll() ?? Emoji.loadDefault()
+        emojis = dataManager.loadAll() ?? Emoji.loadDefault()
         navigationItem.leftBarButtonItem = editButtonItem
     }
     
@@ -30,10 +31,7 @@ class EmojiTableViewController: UITableViewController {
         }
     }
     
-    @IBAction func addButton(_ sender: UIBarButtonItem) {
-
-    }
-    
+    // MARK: - IBAction
     @IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue) {
         if unwindSegue.identifier == "SaveButton" {
             let source = unwindSegue.source as! AddEditTableViewController
@@ -70,10 +68,6 @@ extension EmojiTableViewController {
     override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
         return .delete
     }
-    
-//    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-//        true
-//    }
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {

@@ -17,6 +17,7 @@
 		5EAC92B026B9A67900A6198C /* AddEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC92AF26B9A67900A6198C /* AddEditTableViewController.swift */; };
 		5EAC92B326B9BDD600A6198C /* CellManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC92B226B9BDD600A6198C /* CellManager.swift */; };
 		5EAC92B726BA734A00A6198C /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC92B626BA734A00A6198C /* EmojiTableViewCell.swift */; };
+		5EAC92C226BC3E8100A6198C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC92C126BC3E8100A6198C /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5EAC92AF26B9A67900A6198C /* AddEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTableViewController.swift; sourceTree = "<group>"; };
 		5EAC92B226B9BDD600A6198C /* CellManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellManager.swift; sourceTree = "<group>"; };
 		5EAC92B626BA734A00A6198C /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
+		5EAC92C126BC3E8100A6198C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				5EAC92B226B9BDD600A6198C /* CellManager.swift */,
+				5EAC92C126BC3E8100A6198C /* DataManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EAC92B026B9A67900A6198C /* AddEditTableViewController.swift in Sources */,
+				5EAC92C226BC3E8100A6198C /* DataManager.swift in Sources */,
 				5EAC92B726BA734A00A6198C /* EmojiTableViewCell.swift in Sources */,
 				5EAC929426B9983000A6198C /* AppDelegate.swift in Sources */,
 				5EAC92A926B99A7800A6198C /* Emoji.swift in Sources */,

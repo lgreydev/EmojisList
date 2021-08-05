@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Emoji {
+struct Emoji: Codable {
     var symbol: String
     var name: String
     var description: String
@@ -37,10 +37,6 @@ extension Emoji {
         Emoji(symbol: "🤪", name: "Zany Face", description: "A smiley making a silly face.", usage: "Commonly represents such activities as acting goofy, having fun, and partying as well as various senses of slang terms like crazy, usually in a positive manner. May convey a spirit of wackiness more generally.")
         
         ]
-    
-    static func loadAll() -> [Emoji]? {
-        return nil
-    }
     
     static func loadDefault() -> [Emoji] {
         return all

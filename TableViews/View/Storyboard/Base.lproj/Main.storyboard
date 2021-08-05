@@ -26,7 +26,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😀" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXa-Fs-bJv">
                                             <rect key="frame" x="20" y="20" width="50" height="50"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" secondItem="UXa-Fs-bJv" secondAttribute="height" multiplier="1:1" priority="750" id="Bww-xN-mZf"/>
+                                                <constraint firstAttribute="width" secondItem="UXa-Fs-bJv" secondAttribute="height" multiplier="1:1" priority="750" id="vaX-gn-nqf"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                             <nil key="textColor"/>
@@ -47,14 +47,14 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="UXa-Fs-bJv" secondAttribute="bottom" priority="750" constant="20" symbolic="YES" id="3lC-c3-jZB"/>
-                                        <constraint firstItem="q5J-Sx-hmK" firstAttribute="leading" secondItem="UXa-Fs-bJv" secondAttribute="trailing" priority="750" constant="8" symbolic="YES" id="8Cm-PI-nAo"/>
-                                        <constraint firstItem="UXa-Fs-bJv" firstAttribute="leading" secondItem="nn1-4g-HEN" secondAttribute="leading" priority="750" constant="20" symbolic="YES" id="Adh-yk-GbH"/>
+                                        <constraint firstItem="q5J-Sx-hmK" firstAttribute="leading" secondItem="UXa-Fs-bJv" secondAttribute="trailing" constant="8" symbolic="YES" id="8Cm-PI-nAo"/>
+                                        <constraint firstItem="UXa-Fs-bJv" firstAttribute="leading" secondItem="nn1-4g-HEN" secondAttribute="leading" constant="20" symbolic="YES" id="Adh-yk-GbH"/>
                                         <constraint firstAttribute="bottom" secondItem="9vU-bb-prT" secondAttribute="bottom" constant="20" symbolic="YES" id="KDV-Fc-0j5"/>
-                                        <constraint firstItem="UXa-Fs-bJv" firstAttribute="top" secondItem="nn1-4g-HEN" secondAttribute="top" priority="750" constant="20" symbolic="YES" id="WJV-Cl-Nqe"/>
+                                        <constraint firstItem="UXa-Fs-bJv" firstAttribute="top" secondItem="nn1-4g-HEN" secondAttribute="top" constant="20" symbolic="YES" id="WJV-Cl-Nqe"/>
                                         <constraint firstAttribute="trailing" secondItem="9vU-bb-prT" secondAttribute="trailing" constant="20" symbolic="YES" id="e2E-bg-seU"/>
                                         <constraint firstAttribute="trailing" secondItem="q5J-Sx-hmK" secondAttribute="trailing" constant="20" symbolic="YES" id="ec0-FJ-PVI"/>
                                         <constraint firstItem="q5J-Sx-hmK" firstAttribute="top" secondItem="nn1-4g-HEN" secondAttribute="top" constant="20" symbolic="YES" id="gDg-Uf-xpt"/>
-                                        <constraint firstItem="9vU-bb-prT" firstAttribute="leading" secondItem="UXa-Fs-bJv" secondAttribute="trailing" priority="750" constant="8" symbolic="YES" id="nfZ-r4-mMX"/>
+                                        <constraint firstItem="9vU-bb-prT" firstAttribute="leading" secondItem="UXa-Fs-bJv" secondAttribute="trailing" constant="8" symbolic="YES" id="nfZ-r4-mMX"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
