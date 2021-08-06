@@ -12,8 +12,12 @@ class EmojiTableViewController: UITableViewController {
     // MARK: - Property
     var cellManager = CellManager()
     var dataManager = DataManager()
-    var emojis: [Emoji]!
-    var editEmoji = Emoji()
+    var emojis: [Emoji]! {
+        didSet {
+            dataManager.saveEmojis(emojis)
+        }
+    }
+//    var editEmoji = Emoji()
 
     // MARK: - Controller
     override func viewDidLoad() {
