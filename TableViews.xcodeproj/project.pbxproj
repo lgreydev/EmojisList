@@ -18,6 +18,8 @@
 		5EAC92B326B9BDD600A6198C /* CellManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC92B226B9BDD600A6198C /* CellManager.swift */; };
 		5EAC92B726BA734A00A6198C /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC92B626BA734A00A6198C /* EmojiTableViewCell.swift */; };
 		5EAC92C226BC3E8100A6198C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC92C126BC3E8100A6198C /* DataManager.swift */; };
+		5EAC92C926BD73D900A6198C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5EAC92C826BD73D900A6198C /* README.md */; };
+		5EAC92CC26BD74D300A6198C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5EAC92CB26BD74D300A6198C /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		5EAC92B226B9BDD600A6198C /* CellManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellManager.swift; sourceTree = "<group>"; };
 		5EAC92B626BA734A00A6198C /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
 		5EAC92C126BC3E8100A6198C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5EAC92C826BD73D900A6198C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5EAC92CB26BD74D300A6198C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +70,14 @@
 		5EAC929226B9983000A6198C /* TableViews */ = {
 			isa = PBXGroup;
 			children = (
+				5EAC92CA26BD74AD00A6198C /* Screenshots */,
 				5EAC92B126B9BDB400A6198C /* Manager */,
 				5EAC92A726B99A6500A6198C /* Model */,
 				5EAC92AB26B9A28600A6198C /* Controller */,
 				5EAC92AA26B9A27300A6198C /* View */,
 				5EAC92AC26B9A2C200A6198C /* SupportingFiles */,
+				5EAC92C826BD73D900A6198C /* README.md */,
+				5EAC92CB26BD74D300A6198C /* .gitignore */,
 			);
 			path = TableViews;
 			sourceTree = "<group>";
@@ -138,6 +145,13 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		5EAC92CA26BD74AD00A6198C /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -195,8 +209,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EAC92CC26BD74D300A6198C /* .gitignore in Resources */,
 				5EAC92A026B9983300A6198C /* LaunchScreen.storyboard in Resources */,
 				5EAC929D26B9983300A6198C /* Assets.xcassets in Resources */,
+				5EAC92C926BD73D900A6198C /* README.md in Resources */,
 				5EAC929B26B9983000A6198C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

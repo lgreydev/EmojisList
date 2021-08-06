@@ -26,7 +26,6 @@ struct Emoji: Codable {
         self.description = description
         self.usage = usage
     }
-    
 }
 
 extension Emoji {
