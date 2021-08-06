@@ -9,19 +9,24 @@ import UIKit
 
 class DataManager {
     
+    var archiveURL: URL? {
+        guard let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else { fatalError() }
+        return documentDirectory.appendingPathComponent("emojis").appendingPathExtension("plist")
+    }
     
-    let encoder = PropertyListEncoder()
-    let decoder = PropertyListDecoder()
-    
-//    if let encoderEmojis = try? encoder.encode(emojis) {
-//        print(#line, encoderEmojis)
-//        
+    func loadAll() -> [Emoji]? {
+        print(#line, archiveURL ?? "nil")
+//        let decoder = PropertyListDecoder()
 //        if let decoderEmojes = try? decoder.decode([Emoji].self, from: encoderEmojis) {
 //            decoderEmojes.forEach { print(#line, $0.symbol) }
 //        }
-//    }
-    
-    func loadAll() -> [Emoji]? {
         return nil
+    }
+    
+    func saveEmojis(_ emojis: [Emoji]) {
+        let encoder = PropertyListEncoder()
+        guard let encoderEmojis = try? encoder.encode(emojis) else { fatalError() }
+        guard let archiveURL = archiveURL else { fatalError() }
+        try? encoderEmojis.write(to: archiveURL, options: .noFileProtection)
     }
 }
