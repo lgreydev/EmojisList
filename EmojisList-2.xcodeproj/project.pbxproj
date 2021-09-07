@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5EAC929026B9983000A6198C /* TableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAC929026B9983000A6198C /* EmojisList-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EmojisList-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAC929326B9983000A6198C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EAC929526B9983000A6198C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5EAC929A26B9983000A6198C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		5EAC928726B9983000A6198C = {
 			isa = PBXGroup;
 			children = (
-				5EAC929226B9983000A6198C /* TableViews */,
+				5EAC929226B9983000A6198C /* EmojisList-2 */,
 				5EAC929126B9983000A6198C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,12 +68,12 @@
 		5EAC929126B9983000A6198C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EAC929026B9983000A6198C /* TableViews.app */,
+				5EAC929026B9983000A6198C /* EmojisList-2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5EAC929226B9983000A6198C /* TableViews */ = {
+		5EAC929226B9983000A6198C /* EmojisList-2 */ = {
 			isa = PBXGroup;
 			children = (
 				5EAC92CA26BD74AD00A6198C /* Screenshots */,
@@ -85,7 +85,7 @@
 				5EAC92C826BD73D900A6198C /* README.md */,
 				5EAC92CB26BD74D300A6198C /* .gitignore */,
 			);
-			path = TableViews;
+			path = "EmojisList-2";
 			sourceTree = "<group>";
 		};
 		5EAC92A726B99A6500A6198C /* Model */ = {
@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5EAC928F26B9983000A6198C /* TableViews */ = {
+		5EAC928F26B9983000A6198C /* EmojisList-2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EAC92A426B9983300A6198C /* Build configuration list for PBXNativeTarget "TableViews" */;
+			buildConfigurationList = 5EAC92A426B9983300A6198C /* Build configuration list for PBXNativeTarget "EmojisList-2" */;
 			buildPhases = (
 				5EAC928C26B9983000A6198C /* Sources */,
 				5EAC928D26B9983000A6198C /* Frameworks */,
@@ -176,9 +176,9 @@
 			);
 			dependencies = (
 			);
-			name = TableViews;
+			name = "EmojisList-2";
 			productName = TableViews;
-			productReference = 5EAC929026B9983000A6198C /* TableViews.app */;
+			productReference = 5EAC929026B9983000A6198C /* EmojisList-2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -195,7 +195,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5EAC928B26B9983000A6198C /* Build configuration list for PBXProject "TableViews" */;
+			buildConfigurationList = 5EAC928B26B9983000A6198C /* Build configuration list for PBXProject "EmojisList-2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -208,7 +208,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EAC928F26B9983000A6198C /* TableViews */,
+				5EAC928F26B9983000A6198C /* EmojisList-2 */,
 			);
 		};
 /* End PBXProject section */
@@ -320,6 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -392,12 +393,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LGVM9RAH4N;
-				INFOPLIST_FILE = TableViews/SupportingFiles/Info.plist;
+				INFOPLIST_FILE = "EmojisList-2/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yahoo-s.lukaschuk.TableViews";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yahoo-s.lukaschuk.EmojisList-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -411,12 +412,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LGVM9RAH4N;
-				INFOPLIST_FILE = TableViews/SupportingFiles/Info.plist;
+				INFOPLIST_FILE = "EmojisList-2/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yahoo-s.lukaschuk.TableViews";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yahoo-s.lukaschuk.EmojisList-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,7 +427,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EAC928B26B9983000A6198C /* Build configuration list for PBXProject "TableViews" */ = {
+		5EAC928B26B9983000A6198C /* Build configuration list for PBXProject "EmojisList-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EAC92A226B9983300A6198C /* Debug */,
@@ -435,7 +436,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EAC92A426B9983300A6198C /* Build configuration list for PBXNativeTarget "TableViews" */ = {
+		5EAC92A426B9983300A6198C /* Build configuration list for PBXNativeTarget "EmojisList-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EAC92A526B9983300A6198C /* Debug */,

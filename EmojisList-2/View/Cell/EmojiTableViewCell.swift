@@ -1,6 +1,6 @@
 //
 //  EmojiTableViewCell.swift
-//  TableViews
+//  EmojisList-2
 //
 //  Created by Sergey Lukaschuk on 04.08.2021.
 //

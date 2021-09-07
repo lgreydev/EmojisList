@@ -1,6 +1,6 @@
 //
 //  DataManager.swift
-//  TableViews
+//  EmojisList-2
 //
 //  Created by Sergey Lukaschuk on 05.08.2021.
 //
