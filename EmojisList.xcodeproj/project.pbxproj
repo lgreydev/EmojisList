@@ -23,6 +23,7 @@
 		5EAC92D026BD7B2900A6198C /* screenshot-001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EAC92CD26BD7B2900A6198C /* screenshot-001.jpg */; };
 		5EAC92D126BD7B2900A6198C /* screenshot-003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EAC92CE26BD7B2900A6198C /* screenshot-003.jpg */; };
 		5EAC92D226BD7B2900A6198C /* screenshot-002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EAC92CF26BD7B2900A6198C /* screenshot-002.jpg */; };
+		5EDE660626E76A6B00DB71C0 /* License in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE660526E76A6B00DB71C0 /* License */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		5EAC92CD26BD7B2900A6198C /* screenshot-001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "screenshot-001.jpg"; sourceTree = "<group>"; };
 		5EAC92CE26BD7B2900A6198C /* screenshot-003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "screenshot-003.jpg"; sourceTree = "<group>"; };
 		5EAC92CF26BD7B2900A6198C /* screenshot-002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "screenshot-002.jpg"; sourceTree = "<group>"; };
+		5EDE660526E76A6B00DB71C0 /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5EAC92CA26BD74AD00A6198C /* Screenshots */,
 				5EAC92C826BD73D900A6198C /* README.md */,
 				5EAC92CB26BD74D300A6198C /* .gitignore */,
+				5EDE660526E76A6B00DB71C0 /* License */,
 				5EAC929226B9983000A6198C /* EmojisList */,
 				5EAC929126B9983000A6198C /* Products */,
 			);
@@ -224,6 +227,7 @@
 				5EAC92D126BD7B2900A6198C /* screenshot-003.jpg in Resources */,
 				5EAC929D26B9983300A6198C /* Assets.xcassets in Resources */,
 				5EAC92C926BD73D900A6198C /* README.md in Resources */,
+				5EDE660626E76A6B00DB71C0 /* License in Resources */,
 				5EAC92D226BD7B2900A6198C /* screenshot-002.jpg in Resources */,
 				5EAC929B26B9983000A6198C /* Main.storyboard in Resources */,
 			);
