@@ -60,6 +60,7 @@
 		5EAC928726B9983000A6198C = {
 			isa = PBXGroup;
 			children = (
+				5EAC92CA26BD74AD00A6198C /* Screenshots */,
 				5EAC92C826BD73D900A6198C /* README.md */,
 				5EAC92CB26BD74D300A6198C /* .gitignore */,
 				5EAC929226B9983000A6198C /* EmojisList */,
@@ -78,7 +79,6 @@
 		5EAC929226B9983000A6198C /* EmojisList */ = {
 			isa = PBXGroup;
 			children = (
-				5EAC92CA26BD74AD00A6198C /* Screenshots */,
 				5EAC92B126B9BDB400A6198C /* Manager */,
 				5EAC92A726B99A6500A6198C /* Model */,
 				5EAC92AB26B9A28600A6198C /* Controller */,
